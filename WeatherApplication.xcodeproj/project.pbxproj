@@ -13,6 +13,8 @@
 		D12954B52949F8660029A2F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12954B32949F8660029A2F3 /* Main.storyboard */; };
 		D12954B72949F8680029A2F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12954B62949F8680029A2F3 /* Assets.xcassets */; };
 		D12954BA2949F8680029A2F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12954B82949F8680029A2F3 /* LaunchScreen.storyboard */; };
+		D1691A7E294AF64C0051F895 /* dark_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D1691A7D294AF64C0051F895 /* dark_background.pdf */; };
+		D1691A80294AF6780051F895 /* light_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D1691A7F294AF6780051F895 /* light_background.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D12954B62949F8680029A2F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D12954B92949F8680029A2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D12954BB2949F8680029A2F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1691A7D294AF64C0051F895 /* dark_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = dark_background.pdf; sourceTree = "<group>"; };
+		D1691A7F294AF6780051F895 /* light_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = light_background.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				D12954B32949F8660029A2F3 /* Main.storyboard */,
 				D12954B62949F8680029A2F3 /* Assets.xcassets */,
 				D12954B82949F8680029A2F3 /* LaunchScreen.storyboard */,
+				D1691A7D294AF64C0051F895 /* dark_background.pdf */,
+				D1691A7F294AF6780051F895 /* light_background.pdf */,
 				D12954BB2949F8680029A2F3 /* Info.plist */,
 			);
 			path = WeatherApplication;
@@ -125,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1691A80294AF6780051F895 /* light_background.pdf in Resources */,
+				D1691A7E294AF64C0051F895 /* dark_background.pdf in Resources */,
 				D12954BA2949F8680029A2F3 /* LaunchScreen.storyboard in Resources */,
 				D12954B72949F8680029A2F3 /* Assets.xcassets in Resources */,
 				D12954B52949F8660029A2F3 /* Main.storyboard in Resources */,
@@ -301,6 +309,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Weather.WeatherApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,6 +339,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Weather.WeatherApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
